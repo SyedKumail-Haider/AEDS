@@ -1,0 +1,110 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Navbar styling */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Home Section */
+#home {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#home h2 {
+    font-size: 40px;
+}
+
+/* About Us Section */
+#about {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#about h3 {
+    font-size: 28px;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#portfolio .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#portfolio img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Services Section */
+#services {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#services ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#contact p {
+    font-size: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
